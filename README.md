@@ -1,1 +1,1 @@
-# kodi-repo
+# This is Joname's Kodi repo.
