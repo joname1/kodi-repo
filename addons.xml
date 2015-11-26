@@ -332,24 +332,24 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 
 <addon id="plugin.video.baiduyun" name="百度云" version="0.2.9" provider-name="jackyspy">
-<requires>
-<import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
-<import addon="script.module.chardet" version="2.1.1" optional="false"/>
-<import addon="script.thunder.player" version="0.1.10" optional="false"/>
-<import addon="script.module.keyboard.chinese" version="1.2.8" optional="false"/>
-<import addon="script.module.hdpparser" version="0.1" optional="false"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="addon.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<platform>all</platform>
-<language/>
-<summary lang="en">Baidu Cloud</summary>
-<summary lang="zh">百度云</summary>
-<description lang="en">Baidu Cloud</description>
-<description lang="zh">在线播放百度云盘中的视频</description>
-</extension>
+  <requires>
+    <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+    <import addon="script.module.chardet" version="2.1.1" optional="false"/>
+    <import addon="script.thunder.player"  version="0.1.10" optional="false"/>
+    <import addon="script.module.keyboard.chinese"  version="1.2.8" optional="false"/>
+    <import addon="script.module.hdpparser"  version="0.1" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Baidu Cloud</summary>
+    <summary lang="zh">百度云</summary>
+    <description lang="en">Baidu Cloud</description>
+    <description lang="zh">在线播放百度云盘中的视频</description>    
+  </extension>
 </addon>
 
 <addon id="plugin.video.vimeo" name="Vimeo" version="4.1.4" provider-name="bromix">
@@ -513,6 +513,23 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     <forum>http://forum.xbmc.org/showthread.php?tid=158577</forum>
     <email>nessus85100 at hotmail dot com</email>
     <source>https://github.com/Nessus85100/Bello</source>
+  </extension>
+</addon>
+<addon id="plugin.video.115"
+  name="115网盘"
+  version="0.0.10"
+  provider-name="yxblog">
+  <requires>
+      <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>morefuntv_video video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description>115网盘</description>
+    <description lang="zh">115网盘</description>
+    <disclaimer>本插件中提供的内容均来自互联网，仅供学习演示使用。</disclaimer>
   </extension>
 </addon>
 </addons>
