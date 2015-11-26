@@ -1,4 +1,7 @@
-# This is my first Kodi repo.
+#Introduction
+
+This is my first Kodi repo and this project is an repository for open source Add-on scripts, plugins, and skins for Kodi.
+#
 ![](http://7xoatu.com1.z0.glb.clouddn.com/o_1a51qshpo1bke291h3t10pr1h1ma.jpg)
 #
 #How to use?
