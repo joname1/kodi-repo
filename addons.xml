@@ -477,8 +477,11 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 	</extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">A GUI for Kodi Media Center</summary>
-    <summary lang="zh">重新编译更换了字体文件,支持中文显示</summary>
+    <summary lang="zh">一个 Kodi 多媒体中心的图形界面</summary>
     <summary lang="zh_TW">一個 Kodi 多媒體中心的圖形介面</summary>
+    <description lang="en">Bello is a GUI for Kodi Media Center. The goal of Bello is to maximize your Kodi entertainment experience with it's fast, unique and unified interface along with all the latest features of Kodi.</description>
+	<description lang="zh">重新编译更换了字体文件,支持中文显示</description>
+	<description lang="zh">重新編譯更換了字體文件,支持中文顯示</description>
     <disclaimer lang="en">Can not support mouse</disclaimer>
     <disclaimer lang="zh">不支持使用鼠标</disclaimer>
     <disclaimer lang="zh_TW">不支援使用滑鼠</disclaimer>
