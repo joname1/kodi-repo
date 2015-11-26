@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="metadata.doubantv.com"
+       name="doubantv"
+       version="1.1.0"
+       provider-name="janplus">
+  <requires>
+    <import addon="xbmc.metadata" version="1.0"/>
+    <import addon="metadata.common.imdb.com" version="2.7.8"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows"
+             language="zh"
+             library="doubantv.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Douban TV Scraper</summary>
+    <summary lang="zh">豆瓣电视剧刮削器</summary>
+    <description lang="en">Download TV information from movie.douban.com</description>
+    <description lang="zh">从豆瓣网获取电视剧资料。豆瓣所有的内容，分类，筛选，排序都由用户产生和决定。豆瓣帮助你通过你喜爱的东西找到志同道合者，然后通过他们找到更多的好东西。</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.pps"
+    name="PPS影音(PPS.tv)"
+    version="1.1.12"
+    provider-name="cmeng (originator: yxnr)">
+  	<requires>
+		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
+  	</requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">PPStream Network TV</summary>
+        <summary lang="zh">PPS影音</summary>
+        <description lang="en">PPStream Network TV: (KeyMap Settings)[CR]Mute: F8  Vol-: F9  Vol+: F10  ZoomIn: [↓  ZoomOut: ]↑[CR]Rev: ,←  Next: .→  Pause: Space/Ent  Exit: x/Esc  About: F1[CR]
+To customize Keypmap:[CR]Run plugin.video.pps\resources\player\KeymapSet.exe
+For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and Language"|"Administrative"[CR]Change system locale to "Chinese (Simplified PRC)"</description>
+        <description lang="zh">快捷键设置 (Keymap Settings):[CR]静音: F8  声音缩小: F9  声音放大: F10  画面缩小: [↓  画面放大: ]↑[CR]上一章节: ,←  下一章节: .→  播放暂停: 空格键/回车  关闭程序: x/Esc  关于: F1
+设置自定快捷键:[CR]请运行 plugin.video.pps\resources\player\KeymapSet.exe
+使用PPS影音收看影视节目，清晰流畅更新快。PPS网络电视是全球第一家集P2P直播点播于一身的网络电视软件。PPS网络电视播放流畅、完全免费，PPS网络电视是网民喜爱的装机必备软件。</description>
+        <platform>windx wingl</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ppstream"
+    name="PPS网络电视(PPStream)"
+    version="2.2.15"
+    provider-name="cmeng (originator: robinttt)">
+    <requires>
+        <import addon="script.module.simplejson" version="2.0.10" />
+ 		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
+  	</requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">PPStream video plugin</summary>
+        <summary lang="zh">PPS网络电视</summary>
+        <description lang="en">PPS网络电视: (KeyMap Settings)[CR]Mute: F8  Vol-: F9  Vol+: F10  ZoomIn: [↓  ZoomOut: ]↑[CR]Rev: ,←  Next: .→  Pause: Space/Ent  Exit: x/Esc  About: F1[CR]
+To customize Keypmap:[CR]Run plugin.video.pps\resources\player\KeymapSet.exe
+For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and Language"|"Administrative"[CR]Change system locale to "Chinese (Simplified PRC)"</description>
+        <description lang="zh">快捷键设置 (Keymap Settings):[CR]静音: F8  声音缩小: F9  声音放大: F10  画面缩小: [↓  画面放大: ]↑[CR]上一章节: ,←  下一章节: .→  播放暂停: 空格键/回车  关闭程序: x/Esc  关于: F1
+设置自定快捷键:[CR]请运行 plugin.video.pps\resources\player\KeymapSet.exe
+使用PPS影音收看影视节目，清晰流畅更新快。PPS网络电视是全球第一家集P2P直播点播于一身的网络电视软件。PPS网络电视播放流畅、完全免费，PPS网络电视是网民喜爱的装机必备软件。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.pptv"
+    name="PPTV视频"
+    version="1.2.8"
+    provider-name="Uranus Zhou">
+    <requires>
+        <import addon="script.module.keyboard.chinese" version="1.0.0"/>
+		<import addon="script.module.simplejson" />
+	</requires>
+	<extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">PPTV video plugin</summary>
+        <summary lang="zh">PPTV视频插件</summary>
+        <description lang="en">Watch online videos in www.pptv.com site. Your XBMC system need m3u and m3u8 support for playing live stream and iPad stream</description>
+        <description lang="zh">观看 www.pptv.com 上的精彩在线直播和点播视频. 直播及iPad视频需XBMC系统可正常播放m3u m3u8类型网络媒体</description>
+        <platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>http://bbs.htpc1.com/thread-259452-1-1.html</forum>
+		<website>http://zohead.com/</website>
+		<source>https://github.com/zohead/pptv4xbmc</source>
+		<email>nocwat at gmail dot com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.qiyi"
+    name="奇艺视频(QIYI)"
+    version="2.2.1"
+    provider-name="taxigps">
+    <requires>
+      <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">QIYI Video plugin</summary>
+        <summary lang="zh">奇艺视频插件</summary>
+        <description lang="en">QIYI (QIYI.COM) was founded by Baidu- world's the largest Chinese search engine, invested by Providence Equity Partners-U.S. private equity, QIYI is the first professional website dedicated to providing free, high-definition network video services.</description>
+        <description lang="zh">奇艺（QIYI.COM）是由百度创立的大型专业网站，专注于提供免费、高清网络视频服务。奇艺的优质版权视频丰富多元，涵盖了电影、电视剧、综艺、纪录片、动漫、旅游等众多内容形态。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.yinyuetai"
+    name="音悦台MV(YinYueTai)"
+    version="1.7.7"
+    provider-name="cmeng (originator: Skyemperor)">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YinYueTai video plugin</summary>
+        <summary lang="zh">音悦台视频插件</summary>
+        <description lang="en">Online MV from yinyuetai.com[CR][CR]To Enable Video Auto Playback Option:[CR]---------------------------------[CR]- Navigate to Add-on settings[CR]- Video Continuous Playback: Enable/Disable</description>
+        <description lang="zh">观看音悦台在线MV[CR][CR]视频自动播放说明：[CR]--------------------------------[CR]- 找到 Add-on settings 文件列表[CR]- 选择视频连续播放": 是/否</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youku"
+    name="优酷视频(YouKu)"
+    version="2.2.3"
+    provider-name="Taxigps">
+    <requires>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YouKu video plugin</summary>
+        <summary lang="zh">优酷网视频插件</summary>
+        <description lang="en">online video from youku.com</description>
+        <description lang="zh">优酷（NYSE:YOKU），2006年12月21日正式推出。优酷以 "快者为王"为产品理 念，凭借"快速播放，快速发布，快速搜索"的产品特性，充分满足用户日益增长的互动需求及多元化视频体验，现已成为中国互联网领域最具影响力、最受用户喜爱的视频媒体。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youku2" name="优酷视频2(YouKu2)" version="0.9.5" provider-name="tacy.lee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.keyboard.chinese" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">YouKu Video by tacy.lee</summary>
+    <summary lang="zh">另一个优酷视频插件</summary>
+    <description lang="en">YouKu is china's largest video sharing site, YoukuVideo plugin support all channels play and video search. Please submit bug or issue to http://github.com/tacy/plugin.video.youkuvideo.</description>
+    <description lang="zh">优酷视频是中国最大的视频分享网站: [CR]1. 插件支持优酷全频道播放 [CR]2. 视频搜索(搜酷搜索引擎) [CR]3. 多播放源支持，包括优酷/搜狐/腾讯/爱奇艺/乐视/土豆/PPS [CR]如果有问题请提交到 http://github.com/tacy/plugin.video.youkuvideo</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youkutv" name="YouKu TV" version="1.6.0" provider-name="catro">
+  <requires>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>优酷TV</summary>
+    <description>优酷视频是中国最大的视频分享网站</description>
+  </extension>
+</addon>
+
+<addon id="script.module.keyboard.chinese"
+    name="Chinese keyboard"
+    version="2.0.4"
+    provider-name="Taxigps">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Chinese keyboard</summary>
+        <summary lang="zh">中文键盘</summary>
+        <description lang="en">Visual keyboard to input Chinese</description>
+        <description lang="zh">支持中文输入的虚拟键盘</description>
+        <license>GPL</license>
+        <source>https://github.com/taxigps/script.module.keyboard.chinese/</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.skinfont"
+    name="Skin Font" version="1.0.2" provider-name="taxigps">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Add Arial skin fontset</summary>
+    <summary lang="zh">为皮肤增加Arial字体</summary>
+    <description lang="en">Add Arial skin fontset</description>
+    <description lang="zh">有些皮肤使用的字体文件中没有汉字造成中文无法显示，本插件可为此类皮肤增加支持中文显示的Arial字体选项。</description>
+    <platform>all</platform>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.163sub"
+       name="163sub"
+       version="1.0.2"
+       provider-name="taxigps">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">163sub subtitle</summary>
+    <summary lang="zh">163字幕网</summary>
+    <description lang="en">Search and download subtitles from www.163sub.com</description>
+    <description lang="zh">从 www.163sub.com 下载字幕</description>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.makedie"
+       name="Shooter(fake)"
+       version="1.0.8"
+       provider-name="fffonion">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.chardet" version="2.1.1"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Shooter(fake)</summary>
+    <summary lang="zh">射手(伪)字幕</summary>
+    <summary lang="zh_TW">射手(伪)字幕</summary>
+    <description lang="en">Search and download subtitles from Shooter-fake (sub.makedie.me)</description>
+    <description lang="zh">从射手网(伪)（sub.makedie.me）下载字幕，修改自taxigps的射手网插件</description>
+    <description lang="zh_TW">從射手網(偽)（sub.makedie.me）下載字幕，修改自taxigps的射手網插件</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <!--<forum>http://forum.xbmc.org/showthread.php?tid=199644</forum>-->
+    <website></website>
+    <email></email>
+    <source>https://github.com/fffonion/service.subtitles.makedie</source>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subhd"
+       name="Sub HD"
+       version="1.0.5"
+       provider-name="taxigps">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sub HD subtitle</summary>
+    <summary lang="zh">Sub HD 字幕</summary>
+    <description lang="en">Search and download subtitles from subhd.com</description>
+    <description lang="zh">从 subhd.com 下载字幕</description>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subom"
+       name="subom"
+       version="1.0.1"
+       provider-name="taxigps">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">subom subtitle</summary>
+    <summary lang="zh">subom 字幕</summary>
+    <description lang="en">Search and download subtitles from subom.net/</description>
+    <description lang="zh">从 subom.net 下载字幕</description>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.zimuku"
+       name="zimuku"
+       version="1.0.2"
+       provider-name="taxigps">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">zimuku subtitle</summary>
+    <summary lang="zh">字幕库</summary>
+    <description lang="en">Search and download subtitles from www.zimuku.net</description>
+    <description lang="zh">从 www.zimuku.net 下载字幕</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.baiduyun" name="百度云" version="0.2.9" provider-name="jackyspy">
+<requires>
+<import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+<import addon="script.module.chardet" version="2.1.1" optional="false"/>
+<import addon="script.thunder.player" version="0.1.10" optional="false"/>
+<import addon="script.module.keyboard.chinese" version="1.2.8" optional="false"/>
+<import addon="script.module.hdpparser" version="0.1" optional="false"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<language/>
+<summary lang="en">Baidu Cloud</summary>
+<summary lang="zh">百度云</summary>
+<description lang="en">Baidu Cloud</description>
+<description lang="zh">在线播放百度云盘中的视频</description>
+</extension>
+</addon>
+
+<addon id="plugin.video.vimeo" name="Vimeo" version="4.1.4" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Plugin for Vimeo</summary>
+        <description lang="en">Vimeo is a one of the biggest video-sharing websites of the world.</description>
+		<summary lang="de">Plugin für Vimeo</summary>
+        <description lang="de">Vimeo ist ein eines der größten Video-Sharing-Websites der Welt.</description>
+        <disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=220437</forum>
+		<website>https://www.vimeo.com</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.vimeo</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.gq"
+       name="GQ"
+       version="1.0.7"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GQ Magazine HD Video Addon</summary>
+    <description lang="en">GQ (formerly Gentlemen's Quarterly) is an American monthly men's magazine focusing on fashion, style, and culture for men, through articles on food, movies, fitness, sex, music, travel, sports, technology, and books.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=193395</forum>
+    <website>video.gq.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.gq/</source>
+  </extension>
+</addon>
+
+<addon id="skin.bello" version="3.0.8" name="Bello" provider-name="Joname">
+  <requires>
+		<import addon="xbmc.gui" version="5.3.0"/>
+		<import addon="service.skin.widgets" version="0.0.29"/>
+		<import addon="script.tvtunes" version="3.0.6"/>
+		<import addon="script.tv.show.next.aired" version="6.0.10"/>
+		<import addon="script.artwork.downloader" version="12.0.24"/>
+		<import addon="script.globalsearch" version="2.0.8"/>
+		<import addon="script.artistslideshow" version="1.6.5"/>
+		<import addon="script.playalbum" version="1.0.1"/>
+		<import addon="script.extendedinfo" version="1.0.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.75" debugging="false">
+	    <res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af">'n GUI vir Kodi Media Sentrum</summary>
+    <summary lang="ar">واجهة رسومية لمركز الوسائط Kodi</summary>
+    <summary lang="bg">Потребителски интерфейс за Kodi</summary>
+    <summary lang="ca">Una interfície gràfica per a l'Kodi</summary>
+    <summary lang="da">En GUI til Kodi Media Center</summary>
+    <summary lang="de">Ein GUI für das Kodi Media Center</summary>
+    <summary lang="el">Ένα Γραφικό Περιβάλλον για το Kodi</summary>
+    <summary lang="en">A GUI for Kodi Media Center</summary>
+    <summary lang="en_AU">A GUI for Kodi Media Centre</summary>
+    <summary lang="en_NZ">A GUI for Kodi Media Centre</summary>
+    <summary lang="en_US">A GUI for Kodi Media Center</summary>
+    <summary lang="es">Una interfaz gráfica para Kodi</summary>
+    <summary lang="fr">Un thème pour Kodi Media Center</summary>
+    <summary lang="fr_CA">Une IUG pour le centre multimédia Kodi </summary>
+    <summary lang="gl">Un GUI para Centro de Medios Kodi</summary>
+    <summary lang="he">ממשק משתמש עבור Kodi מדיה סנטר</summary>
+    <summary lang="hu">Felszín az  Kodi Média centerhez</summary>
+    <summary lang="it">Un Interfaccia per Kodi Media Center</summary>
+    <summary lang="ja">Kodi メディアセンター用 GUI</summary>
+    <summary lang="ko">Kodi Media Center를 위한 그래픽 사용자 인터페이스</summary>
+    <summary lang="lt">Kodi media centro GUI</summary>
+    <summary lang="ms">GUI untuk Pusat Media Kodi</summary>
+    <summary lang="nl">Een gebruikersinterface voor Kodi Media Center </summary>
+    <summary lang="pl">Interfejs użytkownika dla Kodi Media Center</summary>
+    <summary lang="pt">Uma Interface para o Centro de Média Kodi</summary>
+    <summary lang="pt_BR">Uma interface gráfica para o Kodi Media Center</summary>
+    <summary lang="ru">Обложка для Kodi</summary>
+    <summary lang="sl">Uporabniški vmesnik za medijsko središče Kodi</summary>
+    <summary lang="sv">Ett grafiskt användargränssnitt för Kodi</summary>
+    <summary lang="th">ส่วนติดต่อผู้ใช้ สำหรับศูนย์รวมสื่อ Kodi</summary>
+    <summary lang="tr">Kodi Media Center İçin Arayüz</summary>
+    <summary lang="zh">Kodi媒体中心的一个图形用户界面</summary>
+    <summary lang="zh_TW">一個 Kodi 多媒體中心的圖形介面</summary>
+    <description lang="bg">Bello е потребителски интерфейс за Kodi. Целта му е да Ви удовлетвори в максимална степен, чрез своя уникален, бърз и удобен интерфейс, като същевременно не Ви лишава от най-новите функционалности на Kodi.</description>
+    <description lang="de">Bello ist eine Benutzeroberfläche für das Kodi Media Center. Das Ziel von Bello ist es, Ihr Unterhaltungserlebnis mit der schnellen, einzigartigen und einheitlichen Oberfläche zusammen mit den neusten Kodi-Features zu maximieren.</description>
+    <description lang="el">Το Bello είναι ένα Γραφικό Περιβάλλον Εργασίας (GUI) για το Κέντρο Πολυμέσων Kodi. Στόχος του Bello είναι να μεγιστοποιήσει την ψυχαγωγική σας εμπειρία μέσω του γρήγορου, μοναδικού και ενοποιημένου περιβάλλοντός του, που περιλαμβάνει όλες τις νέες λειτουργίες του Kodi.</description>
+    <description lang="en">Bello is a GUI for Kodi Media Center. The goal of Bello is to maximize your Kodi entertainment experience with it's fast, unique and unified interface along with all the latest features of Kodi.</description>
+    <description lang="en_AU">Bello is a GUI for Kodi Media Centre. The goal of Bello is to maximise your Kodi entertainment experience with it's fast, unique and unified interface along with all the latest features of Kodi.</description>
+    <description lang="en_NZ">Bello is a GUI for Kodi Media Centre. The goal of Bello is to maximise your Kodi entertainment experience with it's fast, unique and unified interface along with all the latest features of Kodi.</description>
+    <description lang="en_US">Bello is a GUI for Kodi Media Center. The goal of Bello is to maximize your Kodi entertainment experience with it's fast, unique and unified interface along with all the latest features of Kodi.</description>
+    <description lang="es">Bello es una interfaz gráfica para Kodi. La meta de Bello es maximizar la experiencia de Kodi con su interfaz única, rápida y unificada y las últimas novedades de Kodi. </description>
+    <description lang="fr">Bello est un thème pour Kodi Media Center. Le but de Bello est de maximiser votre expérience Kodi avec son interface rapide, fluide et unique pour toutes les fonctionnalités d'Kodi.</description>
+    <description lang="fr_CA">Bello est une IUG pour le centre multimédia Kodi. Le but de Bello est de maximiser votre expérience de divertissement Kodi avec une interface rapide, unique et unifiée, ainsi qu'avec toutes les dernières fonctions de Kodi. </description>
+    <description lang="gl">Bello e unha GUI para o Centro Multimedia Kodi. O obxectivo de Bello é que goce ó máximo da experiencia en entretemento no Kodi, unha interface única e unificada xunto con todas as funcións do Kodi.</description>
+    <description lang="he">המעטפת Bello היא ממשק משתמש עבור Kodi. מטרת Bello היא להעצים את חוויית השימוש ב־Kodi בעזרת ממשק מהיר, ייחודי ואחיד עם כל היכולות החדשות של Kodi.</description>
+    <description lang="hu">A Bello egy felszín az Kodi média centerhez. A Bello célja hogy maximalizálja az Kodi élvezeti értékét az egyedi, gyors és egyszerű felülettel és az Kodi legújabb fejlesztéseinek felhasználásával.</description>
+    <description lang="it">Bello è un'interfaccia per Kodi Media Center. L'obiettivo di Bello è di massimizzare la tua esperienza di intrattenimento con Kodi con la sua interfaccia veloce, unica ed unificata insieme alle nuove caratteristiche di Kodi.</description>
+    <description lang="ko">Bello는 Kodi Media Center의 그래픽 인터페이스입니다. Bello의 목표는 모든 최신 기능들에 대해 빠르고 독특하며 일관된 인터페이스를 제공하여 Kodi 엔터테인먼트 경험을 최대화하는데 있습니다.</description>
+    <description lang="lt">Bello Kodi Media Center GUI. Bello tikslas yra maksimaliai padidinti Kodi pramogą, unikali ir vieninga sąsaja kartu su visomis naujausiomis Kodi funkcijomis.</description>
+    <description lang="ms">Bello ialah GUI untuk Pusat Media Kodi. Matlamat Bello ialah untuk pengalaman hiburan Kodi yang maksimum dengan antaramuka yang pantas, unik dan sepadu bersama-sama dengan semua fitur terkini Kodi.</description>
+    <description lang="nl">Bello is een gebruikersinterface voor Kodi Media Center. Het doel van Bello is jouw Kodi entertainmentbeleving te maximaliseren met zijn snelle, unieke en universele interface samen met de laatste mogelijkheden van Kodi</description>
+    <description lang="pl">Bello to graficzny interfejs użytkownika dla Kodi Media Center. Celem Bello jest dostarczenie maksymalnej wygody użytkowania Kodi z wykorzystaniem szybkiego, unikalnego oraz ujednoliconego interfejsu, wraz z wszystkimi najnowszymi funkcjonalnościami Kodi.</description>
+    <description lang="pt_BR">Bello é uma interface gráfica para o Kodi. A meta de Bello é maximizar sua experiência de entretenimento com o Kodi através de sua interface única, rápida e integrada com todos os últimos recursos do Kodi.</description>
+    <description lang="ru">Bello - это обложка для Kodi. Ee быстрый, неповторимый и законченный интерфейс вместе возможностями Kodi позволят вам получить максимальное удовольствие от вашей цифровой коллекции.</description>
+    <description lang="sv">Bello är ett GUI för Kodi Media Center. Syftet med Bello är att fullborda din Kodi upplevelse med ett snabbt, unikt och samlat gränssnitt tillsammans med de allra senaste funktionerna av Kodi.</description>
+    <description lang="tr">Bello, Kodi Media Center için bir GKA'dır. Bello'nun hedefi, hızlı ve benzersiz arayüzüyle, Kodi eğlence deneyiminizi en son ve bütün özellikleriyle maksimuma çıkarmaktır.</description>
+    <description lang="zh">Bello是一个Kodi媒体中心的图形界面. Bello的目标是通过快速, 独特和统一的界面以及最新的Kodi特性, 来最大化你的Kodi娱乐体验.</description>
+    <disclaimer lang="af">Muis gebruik word nie ondersteun</disclaimer>
+    <disclaimer lang="ar">غير معتمد استخدام الماوس</disclaimer>
+    <disclaimer lang="bg">Ползването на мишка не се поддържа</disclaimer>
+    <disclaimer lang="ca">L'ús del ratolí no està suportat</disclaimer>
+    <disclaimer lang="da">Mus understøttes ikke</disclaimer>
+    <disclaimer lang="de">Verwendung der Maus wird nicht unterstützt</disclaimer>
+    <disclaimer lang="el">Χωρίς υποστήριξη για ποντίκι</disclaimer>
+    <disclaimer lang="en">Mouse usage is not supported</disclaimer>
+    <disclaimer lang="en_AU">Mouse usage is not supported</disclaimer>
+    <disclaimer lang="en_NZ">Mouse usage is not supported</disclaimer>
+    <disclaimer lang="en_US">Mouse usage is not supported</disclaimer>
+    <disclaimer lang="es">El uso de ratón no esta soportado</disclaimer>
+    <disclaimer lang="fr">L'utilisation de la souris n'est pas supportée.</disclaimer>
+    <disclaimer lang="fr_CA">L'utilisation de la souris n'est pas prise en charge</disclaimer>
+    <disclaimer lang="gl">Uso do rato non soportado</disclaimer>
+    <disclaimer lang="he">אין תמיכה בעכבר</disclaimer>
+    <disclaimer lang="hu">Egér használata nem támogatott</disclaimer>
+    <disclaimer lang="it">L'utilizzo del mouse non è supportato</disclaimer>
+    <disclaimer lang="ko">마우스 지원 안 함</disclaimer>
+    <disclaimer lang="lt">Pelės naudojimas nepalaikomas</disclaimer>
+    <disclaimer lang="mk">Користењето на глувче не е поддржано</disclaimer>
+    <disclaimer lang="ms">Penggunaan tetikus tidak disokong</disclaimer>
+    <disclaimer lang="nl">Het gebruik van een muis wordt niet ondersteund</disclaimer>
+    <disclaimer lang="pl">Brak obsługi myszy</disclaimer>
+    <disclaimer lang="pt">Não é possível utilizar o rato</disclaimer>
+    <disclaimer lang="pt_BR">Uso de mouse não é suportado</disclaimer>
+    <disclaimer lang="ru">Использование мыши не поддерживается</disclaimer>
+    <disclaimer lang="sl">Uporaba miške ni podprta</disclaimer>
+    <disclaimer lang="sv">Att använda musen fungerar inte</disclaimer>
+    <disclaimer lang="th">ไม่รองรับการใช้งานด้วยเมาท์</disclaimer>
+    <disclaimer lang="tr">Fare kullanımı desteklenmiyor</disclaimer>
+    <disclaimer lang="zh">不支持使用鼠标</disclaimer>
+    <disclaimer lang="zh_TW">不支援使用滑鼠</disclaimer>
+    <platform>all</platform>
+    <license>Creative Commons Attribution-NonCommercial-Share Alike 4.0 International Public License</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=158577</forum>
+    <email>nessus85100 at hotmail dot com</email>
+    <source>https://github.com/Nessus85100/Bello</source>
+  </extension>
+</addon>
+</addons>
