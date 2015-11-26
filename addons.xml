@@ -352,6 +352,64 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
+<addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel)" version="2.4.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <language />
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.chardet"
+       name="chardet"
+       version="2.1.2"
+       provider-name="Valentin-Costel Hăloiu">
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Universal encoding detector</summary>
+    <description>Packed for XBMC from https://github.com/erikrose/chardet</description>
+    <license>LGPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.thunder.player"
+    name="迅雷离线播放插件"
+    version="0.1.10"
+    provider-name="jackyspy|jindaxia">
+    <extension
+        point="xbmc.python.pluginsource"  library="addon.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">迅雷离线播放插件</summary>
+        <summary lang="zh">迅雷离线播放插件</summary>
+        <description lang="en">迅雷离线播放插件</description>
+        <description lang="zh">迅雷离线播放插件</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.hdpparser"
+    name="HDP视频解析"
+    version="0.1.3"
+    provider-name="jackyspy">
+    <requires>
+        <import addon="script.common.plugin.cache" version="2.5.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"  library="default.py" />
+    <extension point="xbmc.python.module" library="lib/export" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">主流视频链接解析</summary>
+        <summary lang="zh">主流视频链接解析</summary>
+        <description lang="en">目前主要用于解析bth文件</description>
+        <description lang="zh">目前主要用于解析bth文件</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.vimeo" name="Vimeo" version="4.1.4" provider-name="bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
