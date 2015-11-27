@@ -509,4 +509,37 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     <disclaimer>本插件中提供的内容均来自互联网，仅供学习演示使用。</disclaimer>
   </extension>
 </addon>
+
+<addon id="plugin.video.myclouds" name="MyClouds" version="1.3.10" provider-name="ytan">
+     <requires>
+        <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
+     </requires>
+     <extension point="xbmc.python.pluginsource" library="myclouds.py">
+          <provides>image audio video</provides>
+     </extension>
+     <extension point="xbmc.addon.metadata">
+     <platform>all</platform>
+     <description>A cloud drive media browser, now supports 115, baiduyun and XunleiLixian, Kodi 14.0 Helix above required.
+     </description>
+     <description lang="zh">云服务媒体浏览器，目前支持百度云、115网盘和迅雷离线，需要运行在Kodi 14.0以上版本的系统。
+     </description>
+     <disclaimer/>
+     </extension>
+</addon>
+
+<addon id="plugin.video.bilibili" name="哔哩哔哩(bilibili)" version="0.2.5" provider-name="Syndim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language></language>
+        <summary>XBMC Bilibili Plugin</summary>
+        <description>XBMC BiliBili Plugin</description>
+    </extension>
+</addon>
 </addons>
