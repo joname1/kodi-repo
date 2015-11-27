@@ -500,7 +500,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
       <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>morefuntv_video video</provides>
+  <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -515,7 +515,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
         <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
      </requires>
      <extension point="xbmc.python.pluginsource" library="myclouds.py">
-          <provides>image audio video</provides>
+          <provides>video</provides>
      </extension>
      <extension point="xbmc.addon.metadata">
      <platform>all</platform>
