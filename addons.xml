@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="metadata.doubantv.com"
-       name="doubantv"
+       name="豆瓣刮削器"
        version="1.1.0"
        provider-name="janplus">
   <requires>
@@ -21,7 +21,7 @@
 </addon>
 
 <addon id="plugin.video.pps"
-    name="PPS影音(PPS.tv)"
+    name="PPS影音"
     version="1.1.12"
     provider-name="cmeng (originator: yxnr)">
   	<requires>
@@ -46,7 +46,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 
 <addon id="plugin.video.ppstream"
-    name="PPS网络电视(PPStream)"
+    name="PPS网络电视"
     version="2.2.15"
     provider-name="cmeng (originator: robinttt)">
     <requires>
@@ -99,7 +99,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 
 <addon id="plugin.video.qiyi"
-    name="奇艺视频(QIYI)"
+    name="爱奇艺视频"
     version="2.2.1"
     provider-name="taxigps">
     <requires>
@@ -120,7 +120,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 
 <addon id="plugin.video.yinyuetai"
-    name="音悦台MV(YinYueTai)"
+    name="音悦台MV"
     version="1.7.7"
     provider-name="cmeng (originator: Skyemperor)">
     <extension
@@ -177,7 +177,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
-<addon id="plugin.video.youkutv" name="YouKu TV" version="1.6.0" provider-name="catro">
+<addon id="plugin.video.youkutv" name="优酷TV" version="1.6.0" provider-name="catro">
   <requires>
     <import addon="script.common.plugin.cache" version="0.9.1"/>
   </requires>
@@ -213,7 +213,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 
 <addon id="script.skinfont"
-    name="Skin Font" version="1.0.2" provider-name="taxigps">
+    name="Arial字体" version="1.0.2" provider-name="taxigps">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
