@@ -21,12 +21,12 @@
 </addon>
 
 <addon id="plugin.video.pps"
-    name="PPS影音"
+    name="PPS影音(PPS.tv)"
     version="1.1.12"
     provider-name="cmeng (originator: yxnr)">
   	<requires>
 		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
-  	</requires>
+  	</requires>    
     <extension
         point="xbmc.python.pluginsource"
         library="default.py">
