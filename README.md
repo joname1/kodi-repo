@@ -19,12 +19,12 @@ To install the repository, you need to download the latest repository zip file: 
 For proper Chinese text display on Kodi, do the following steps:
 * `Launch Kodi`
 * `Navigate to System => Settings => Appearance => skin.`
-* `Change skin-font to "Arial based"`
+* `Change skin-font to "Arial based".`
 
 #2.Install Add-ons
 #
-* `Click Get Add-ons`
-* `Select Joname's Repository`
-* `Select the appropriate Add-ons from the display categories`
-* `Click to install the Add-on`
+* `Click Get Add-ons or Install from repository.`
+* `Select Joname's Repo`
+* `Select the appropriate Add-ons from the display categories.`
+* `Click to install the Add-on.`
 * `Enjoy it. :)`
