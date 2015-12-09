@@ -538,8 +538,31 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <language></language>
-        <summary>XBMC Bilibili Plugin</summary>
-        <description>XBMC BiliBili Plugin</description>
+        <summary>Kodi Bilibili Plugin</summary>
+        <description>Kodi BiliBili Plugin</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.pulsar" name="Pulsar" version="0.6.1" provider-name="steeve">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <website><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></website>
+        <forum><![CDATA[http://forum.xbmc.org/showthread.php?tid=200957]]></forum>
+        <source><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></source>
+        <language>en</language>
+        <license><![CDATA[Non commercial. See https://github.com/steeve/plugin.video.pulsar/blob/master/LICENSE]]></license>
+        <summary><![CDATA[Pulsar: Universal streaming]]></summary>
+        <description lang="zh"><![CDATA[播放种子文件、磁力链]]></description>
     </extension>
 </addon>
 </addons>
