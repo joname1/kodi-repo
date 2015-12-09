@@ -21,9 +21,9 @@
 </addon>
 
 <addon id="plugin.video.pps"
-    name="PPS影音(PPS.tv)"
+    name="PPS影音"
     version="1.1.12"
-    provider-name="cmeng (originator: yxnr)">
+    provider-name="yxnr">
   	<requires>
 		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
   	</requires>    
@@ -41,14 +41,14 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
         <description lang="zh">快捷键设置 (Keymap Settings):[CR]静音: F8  声音缩小: F9  声音放大: F10  画面缩小: [↓  画面放大: ]↑[CR]上一章节: ,←  下一章节: .→  播放暂停: 空格键/回车  关闭程序: x/Esc  关于: F1
 设置自定快捷键:[CR]请运行 plugin.video.pps\resources\player\KeymapSet.exe
 使用PPS影音收看影视节目，清晰流畅更新快。PPS网络电视是全球第一家集P2P直播点播于一身的网络电视软件。PPS网络电视播放流畅、完全免费，PPS网络电视是网民喜爱的装机必备软件。</description>
-        <platform>windx wingl</platform>
+        <platform>all</platform>
     </extension>
 </addon>
 
 <addon id="plugin.video.ppstream"
     name="PPS网络电视"
     version="2.2.15"
-    provider-name="cmeng (originator: robinttt)">
+    provider-name="robinttt">
     <requires>
         <import addon="script.module.simplejson" version="2.0.10" />
  		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
@@ -422,7 +422,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
         <description lang="en">Vimeo is a one of the biggest video-sharing websites of the world.</description>
 		<summary lang="de">Plugin für Vimeo</summary>
         <description lang="zh">重新编译了文件,大陆地区免翻墙即可观看.</description>
-        <disclaimer lang="en"></disclaimer>
+        <disclaimer lang="en">　</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -446,7 +446,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">GQ Magazine HD Video Addon</summary>
-    <description lang="en">GQ (formerly Gentlemen's Quarterly) is an American monthly men's magazine focusing on fashion, style, and culture for men, through articles on food, movies, fitness, sex, music, travel, sports, technology, and books.</description>
+    <description lang="en">GQ (Gentlemen's Quarterly) is an American monthly men's magazine focusing on fashion, style, and culture for men, through articles on food, movies, fitness, sex, music, travel, sports, technology, and books.</description>
     <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
     <platform>all</platform>
     <language>en</language>
@@ -556,13 +556,9 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <language>en</language>
-        <website><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></website>
-        <forum><![CDATA[http://forum.xbmc.org/showthread.php?tid=200957]]></forum>
-        <source><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></source>
         <language>en</language>
-        <license><![CDATA[Non commercial. See https://github.com/steeve/plugin.video.pulsar/blob/master/LICENSE]]></license>
-        <summary><![CDATA[Pulsar: Universal streaming]]></summary>
-        <description lang="zh"><![CDATA[播放种子文件、磁力链]]></description>
+        <summary>Pulsar: Universal streaming</summary>
+        <description lang="zh">播放种子文件、磁力链</description>
     </extension>
 </addon>
 </addons>
