@@ -232,7 +232,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="service.subtitles.163sub"
        name="163sub"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="taxigps">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -279,7 +279,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="service.subtitles.subhd"
        name="Sub HD"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="taxigps">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -527,7 +527,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
      </extension>
 </addon>
 
-<addon id="plugin.video.bilibili" name="哔哩哔哩(bilibili)" version="0.2.5" provider-name="Syndim">
+<addon id="plugin.video.bilibili" name="哔哩哔哩(bilibili)" version="0.2.6" provider-name="Syndim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.xbmcswift2" version="2.4.0"/>
