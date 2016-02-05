@@ -331,7 +331,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
-<addon id="plugin.video.baiduyun" name="百度云" version="0.2.9" provider-name="jackyspy">
+<addon id="plugin.video.baiduyun" name="百度云" version="0.2.10" provider-name="jackyspy">
   <requires>
     <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
     <import addon="script.module.chardet" version="2.1.1" optional="false"/>
