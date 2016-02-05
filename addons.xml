@@ -73,7 +73,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="plugin.video.pptv"
     name="PPTV视频"
-    version="1.2.8"
+    version="1.2.10"
     provider-name="Uranus Zhou">
     <requires>
         <import addon="script.module.keyboard.chinese" version="1.0.0"/>
@@ -100,7 +100,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="plugin.video.qiyi"
     name="爱奇艺视频"
-    version="2.2.1"
+    version="2.2.4"
     provider-name="taxigps">
     <requires>
       <import addon="script.module.simplejson" version="3.3.0"/>
@@ -561,4 +561,23 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
         <description lang="zh">播放种子文件、磁力链</description>
     </extension>
 </addon>
+
+<addon id="plugin.video.zhanqitv"
+    name="战旗TV"
+    version="1.0.3"
+    provider-name="Albert">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">zhanqitv video plugin</summary>
+        <summary lang="zh">战旗TV插件</summary>
+        <description lang="en">online video from www.zhanqi.tv</description>
+        <description lang="zh">战旗TV在线视频</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 </addons>
