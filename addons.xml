@@ -121,7 +121,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="plugin.video.yinyuetai"
     name="音悦台MV"
-    version="1.7.7"
+    version="1.7.9"
     provider-name="cmeng (originator: Skyemperor)">
     <extension
         point="xbmc.python.pluginsource"
@@ -331,7 +331,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
-<addon id="plugin.video.baiduyun" name="百度云" version="0.2.10" provider-name="jackyspy">
+<addon id="plugin.video.baiduyun" name="百度云" version="0.2.11" provider-name="Joname">
   <requires>
     <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
     <import addon="script.module.chardet" version="2.1.1" optional="false"/>
@@ -494,7 +494,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 <addon id="plugin.video.115"
   name="115网盘"
-  version="0.0.10"
+  version="0.1.0"
   provider-name="yxblog">
   <requires>
       <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
@@ -510,7 +510,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
-<addon id="plugin.video.myclouds" name="MyClouds" version="1.3.10" provider-name="ytan">
+<addon id="plugin.video.myclouds" name="MyClouds" version="1.3.11" provider-name="ytan">
      <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
      </requires>
