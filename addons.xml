@@ -580,4 +580,25 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     </extension>
 </addon>
 
+<addon id="plugin.video.you.jizz"
+       name="YouJizz.com"
+       version="1.0.11"
+       provider-name="Joname">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">YouJizz.com</summary>
+        <description lang="en">**ATTENTION** Blow 18 years old, please fuck off.</description>
+        <summary lang="zh">YouJizz.com</summary>
+        <description lang="zh">**大陆地区免翻墙即可观看.**</description> 
+    </extension>
+</addon>
+
 </addons>
