@@ -494,7 +494,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 </addon>
 <addon id="plugin.video.115"
   name="115网盘"
-  version="0.1.0"
+  version="0.2.1.3"
   provider-name="yxblog">
   <requires>
       <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
@@ -510,7 +510,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
   </extension>
 </addon>
 
-<addon id="plugin.video.myclouds" name="MyClouds" version="1.3.11" provider-name="ytan">
+<addon id="plugin.video.myclouds" name="MyClouds" version="1.3.12" provider-name="ytan">
      <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
      </requires>
