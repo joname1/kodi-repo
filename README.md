@@ -6,9 +6,9 @@ This is my first Kodi repo and this project is an repository for open source Add
 #
 #How to use?
 #
-#1.Install Respoistory
+#1、Install Respoistory
 #
-To install the repository, you need to download the latest repository zip file: [repository.kodi-repo.zip](https://raw.githubusercontent.com/joname1/kodi-repo/master/repository.kodi-repo.zip) And then:
+To install the repository, you need to download the latest repository zip file: [kodi-repo-v2.0.0.zip](http://joe-10005639.cos.myqcloud.com/kodi-repo-v2.0.0.zip) And then:
 
 * `Launch Kodi`
 * `Navigate to System => Settings => Add-ons.`
@@ -18,10 +18,10 @@ To install the repository, you need to download the latest repository zip file: 
 
 For proper Chinese text display on Kodi, do the following steps:
 * `Launch Kodi`
-* `Navigate to System => Settings => Appearance => skin.`
+* `Navigate to System => Settings => Appearance => Skin.`
 * `Change skin-font to "Arial based".`
 
-#2.Install Add-ons
+#2、Install Add-ons
 #
 * `Click Get Add-ons or Install from repository.`
 * `Select Joname's Repo`
