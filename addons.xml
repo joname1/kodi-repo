@@ -158,7 +158,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
     </extension>
 </addon>
 
-<addon id="plugin.video.youku2" name="优酷视频2(YouKu2)" version="0.9.5" provider-name="tacy.lee">
+<addon id="plugin.video.youku2" name="优酷视频2" version="0.9.5" provider-name="tacy.lee">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -648,4 +648,62 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
         <platform>all</platform>
     </extension>
 </addon>
+
+<addon id="plugin.video.rrmj"
+       name="人人美剧"
+       version="0.1.7"
+       provider-name="jindaxia">
+  <requires>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.keyboard.chinese" version="2.0.4" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh-CN">由人人影视转型后专门为美剧迷们打造的高质量讨论交流社区</summary>
+    <description>由人人影视转型后专门为美剧迷们打造的高质量讨论交流社区</description>
+    <platform>all</platform>
+    <website><![CDATA[https://github.com/jindaxia/plugin.video.rrmj]]></website>
+    <forum></forum>
+    <source><![CDATA[https://github.com/jindaxia/plugin.video.rrmj]]></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youkuvideo" name="优酷视频" version="0.9.4" provider-name="tacy.lee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">YouKu Video</summary>
+    <summary lang="zh">优酷视频</summary>
+    <description lang="en">YouKu is china's largest video sharing site, YoukuVideo plugin support all channels play and video search. Please submit bug or issue to http://github.com/tacy/plugin.video.youkuvideo.</description>
+    <description lang="zh">优酷视频是中国最大的视频分享网站: [CR]1. 插件支持优酷全频道播放 [CR]2. 视频搜索(搜酷搜索引擎) [CR]3. 多播放源支持，包括优酷/搜狐/腾讯/爱奇艺/乐视/土豆/PPS [CR]如果有问题请提交到 http://github.com/tacy/plugin.video.youkuvideo</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youkuhd"
+    name="优酷高清"
+    version="1.1.4"
+    provider-name="Wenl">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YouKuHD video plugin</summary>
+        <summary lang="zh">优酷视频高清版</summary>
+        <description lang="en">online video from youku</description>
+        <description lang="zh">优酷，2006年12月21日正式推出。优酷以 "快者为王"为产品理 念，凭借"快速播放，快速发布，快速搜索"的产品特性，充分满足用户日益增长的互动需求及多元化视频体验，现已成为中国互联网领域最具影响力、最受用户喜爱的视频媒体。更多xbmc优秀插件分享，插件编写教程请上高清范网站 http://www.hdpfans.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 </addons>
