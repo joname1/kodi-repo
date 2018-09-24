@@ -8,7 +8,7 @@ This is my first Kodi repo and this project is an repository for open source Add
 #
 #1、Install Respoistory
 #
-To install the repository, you need to download the latest repository zip file: [kodi-repo-v2.0.0.zip](http://joe-10005639.cos.myqcloud.com/kodi-repo-v2.0.0.zip) And then:
+To install the repository, you need to download the latest repository zip file: [kodi-repo-v2.0.0.zip](http://pfem6f3z7.bkt.clouddn.com/kodi-repo-v2.0.0.zip) And then:
 
 * `Launch Kodi`
 * `Navigate to System => Settings => Add-ons.`
